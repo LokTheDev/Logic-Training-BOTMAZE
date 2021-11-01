@@ -1,0 +1,36 @@
+html body{
+    margin: 0;
+    padding:0;
+}
+
+
+.canvas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maze{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.block{
+    margin: 25px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+    text-align: center;
+}
+
+.controlBar{
+    display: flex;
+    justify-content: center;
+}
+
+.controlBut{
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+}
